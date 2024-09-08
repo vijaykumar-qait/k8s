@@ -1,0 +1,12 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: podz
+  namespace: default
+  labels:
+    app: myapp
+    project: "007"
+spec:
+  containers:
+    - name: count1
+      image: nginx:latest
